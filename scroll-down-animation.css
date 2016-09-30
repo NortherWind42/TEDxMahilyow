@@ -40,3 +40,9 @@
         opacity: 0;
     }
 }
+
+@media screen and (max-width: 992px) {
+    .scroll-down {
+        display: none;
+    }
+}
