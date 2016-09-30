@@ -7,18 +7,46 @@
 
     <title>TEDxMahilyow</title>
 
-    <link rel="stylesheet" href="\node_modules\bootstrap\dist\css\bootstrap.min.css">
-    <link rel="stylesheet" href="\node_modules\bootstrap-material-design-icons\css\material-icons.min.css">
-    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Roboto'>
-    <link rel="stylesheet" href="\node_modules\normalize.css\normalize.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+    <div style="height:100%">
+        <main class="main">
+            <section>
+                <span>One Page Scroll 1</span>
+            </section>
+
+            <section>
+                <span>One Page Scroll 2</span>
+            </section>
+
+            <section>
+                <span>One Page Scroll 3</span>
+            </section>
+        </main>
+    </div>
+
     <script src="\node_modules\jquery\dist\jquery.min.js"></script>
     <script src="\node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="\node_modules\bootstrap-material-design\dist\js\material.min.js"></script>
+    <script src="\node_modules\bootstrap-material-design\dist\js\ripples.min.js"></script>
+    <script src="\node_modules\onepage-scroll\jquery.onepage-scroll.min.js"></script>
 
+    <script>
+        $(document).ready(function(){
+            $(".main").onepage_scroll({
+                sectionContainer: "section",
+                responsiveFallback: 600,
+                loop: true
+            });
+        });
+    </script>
+
+    <script>$.material.init()</script>
 </body>
 
 </html>
