@@ -1,0 +1,31 @@
+{
+  "name": "tedxmahilow",
+  "version": "0.0.0",
+  "description": "card site",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lite-server -c server-cfg.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "//github.com/NorthernWind42/TEDxMahilow.git"
+  },
+  "keywords": [
+    "TEDx"
+  ],
+  "author": "Oleg Vasiluev",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "1.0.1",
+    "grunt-autoprefixer": "3.0.4",
+    "grunt-contrib-cssmin": "1.0.2",
+    "grunt-contrib-less": "1.4.0",
+    "grunt-contrib-watch": "1.0.0",
+    "lite-server": "2.2.2"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.7",
+    "jquery": "3.1.1",
+    "normalize.css": "4.2.0"
+  }
+}
