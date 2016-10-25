@@ -13,7 +13,7 @@
     top: 0;
     left: 0;
     display: block;
-    border: 2px solid gray;
+    border: 2px solid white;
     border-radius: 20px;
 }
 .scroll-down .scroll-down_wheel{
@@ -22,7 +22,7 @@
     top: 10px;
     left: 50%;
     position: absolute;
-    background: #272727;
+    background: whitesmoke;
     display: block;
     border-radius: 50%;
     margin-left: -2px;
@@ -41,7 +41,7 @@
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     .scroll-down {
         display: none;
     }

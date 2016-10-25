@@ -2,7 +2,6 @@
   "name": "tedxmahilow",
   "version": "0.0.0",
   "description": "card site",
-  "main": "index.js",
   "scripts": {
     "serve": "lite-server -c server-cfg.json"
   },
@@ -25,7 +24,6 @@
   },
   "dependencies": {
     "bootstrap": "3.3.7",
-    "bootstrap-material-design": "0.5.10",
     "bootstrap-social": "5.0.0",
     "jquery": "3.1.1",
     "normalize.css": "4.2.0",

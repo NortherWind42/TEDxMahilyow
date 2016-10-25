@@ -14,36 +14,33 @@
 
 <body>
 
-	<tedx-mahilyow>
+	<tedx-mahilyow-speakers-2016>
 
 		<main class="main">
 			<section>
-                <div class="front-page">
-
-                </div>
-
-				<div class="scroll-down">
-					<a href="javascript:$('.main').moveTo(2);">
-						<div class="scroll-down_mouse">
-							<div class="scroll-down_wheel"></div>
-						</div>
-					</a>
+				<div class="shabbat-speech">
+					<a href="/">НАЗАД</a>
+					<span>shabbat</span>
 				</div>
-
 			</section>
 
 			<section>
-                <a href="tedx-mahilyow-speakers-2016.html">ПОДРОБНЕЕ</a>
-				<span>One Page Scroll 2</span>
+				<div class="not-to-have-children-speech">
+					<a href="/">НАЗАД</a>
+					<span>not to have children</span>
+				</div>
 			</section>
 
 			<section>
-				<span>One Page Scroll 3</span>
+				<div class="youth-speech">
+					<a href="/">НАЗАД</a>
+					<span>youth</span>
+				</div>
 			</section>
 		</main>
 
-	</tedx-mahilyow>
- 
+	</tedx-mahilyow-speakers-2016>
+
 	<script src="node_modules\jquery\dist\jquery.min.js"></script>
 	<script src="node_modules\bootstrap\dist\js\bootstrap.min.js"></script>
 	<script src="node_modules\onepage-scroll\jquery.onepage-scroll.min.js"></script>
@@ -52,8 +49,9 @@
         $(document).ready(function(){
             $(".main").onepage_scroll({
                 sectionContainer: "section",
-                responsiveFallback: 600,
-                loop: true
+                responsiveFallback: 350,
+                loop: true,
+                direction: "horizontal"
             });
         });
     </script>
